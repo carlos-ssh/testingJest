@@ -1,4 +1,3 @@
-export default function stringLength(str) {
-  return str.length;
-}
+import { stringLength } from "./string/string";
 
+console.log(stringLength("My String"));

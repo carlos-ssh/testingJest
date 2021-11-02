@@ -9,6 +9,9 @@
     "build": "webpack",
     "deploy": "gh-pages -d dist"
   },
+  "jest": {
+    "verbose": true
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/carlos-ssh/testingJest.git"
