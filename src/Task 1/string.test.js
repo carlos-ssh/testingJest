@@ -1,6 +1,5 @@
-const string = require('./string');
 const stringLength = require('./string');
 
-test('Looking for string length', () => {
-  expect('My String').toBe('My String');
+it('Looking for string length', () => {
+  expect(stringLength.length).toBe(stringLength.length);
 });
